@@ -1,0 +1,20 @@
+#using pygame module we have to create a snakegame 
+
+using module py game
+pip install py game 
+open IDE 
+
+1.create a screen
+   first initialize, and to create a screen using pygame,you need to make use of 
+   displayset-mode()
+functions
+ int(),quit(),update(),flip(),the flip function is similar to update function()
+ weidth,height 
+ 
+2.moving of snake
+  to move the snake ,you will need the key events present in the KEYDOWN class of pygame
+  the events are K_UP,K_DOWN,K_LEFT, AND K_RIGHT to make the snake move up,down,left,K_RIGHT
+  fill() methid is used for display screen is changes from default black to white 
+ new variables x1 and y1,that are x coordinate and y coordinate
+
+3.Game over when the snake touches to boundary
